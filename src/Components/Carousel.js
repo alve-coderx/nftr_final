@@ -26,9 +26,9 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
-   
+
     responsive: [
-      
+
       {
         breakpoint: 600,
         settings: {
@@ -60,15 +60,15 @@ const Carousel = () => {
       <h1 style={{ color: '#42296A' }} className="text-4xl font-bold tracking-tight pb-3  sm:text-5xl md:text-5xl mx-10">
         <span className="block  xl:inline">FEATURED ENDING SOON</span>
       </h1>
-        <div className='mx-[-1rem]'>
+      <div className='mx-[-2rem]' style={{overflow : 'hidden'}}>
         <Slider ref={setSliderRef} {...sliderSettings}>
           {
-            data.slice(1,10).map((card) => (
+            data.slice(1, 10).map((card) => (
               <Card key={card._id} card={card} />
             ))
-          } 
+          }
         </Slider>
-        </div>
+      </div>
     </div>
   )
 }

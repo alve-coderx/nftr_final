@@ -38,7 +38,7 @@ const Card = ({ card }) => {
             </div>
             <img src={card.imageSrc} alt="" className='rounded-lg' />
             <div className="p-5">
-                    <p className="flex items-center mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-slate-400">Noteworthy technology acquisitions 2021 <BsFillCheckCircleFill style={{ color: '#07bc0c' }} /></p>
+                    <p className="flex items-center mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-slate-400">Noteworthy technology acquisitions 2021 <BsFillCheckCircleFill style={{ color: '#84cc16' }} /></p>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight" style={{ color: darkMode ? 'white' : 'black' }}>Noteworthy technology acquisitions 2021</h5>
                     <p className="mb-2 text-xl font-bold tracking-tight " style={{ color: '#8b5cf6' }}>@mjbreese613</p>
                     <div className='flex justify-between'>
@@ -46,8 +46,8 @@ const Card = ({ card }) => {
                         <h5 className="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-slate-400">Price/Ticket</h5>
                     </div>
                     <div className='flex justify-between'>
-                        <p className="mb-2 text-xl font-bold tracking-tight " style={{ color: darkMode ? '#4cd964' : '#8b5cf6' }} >81/100</p>
-                        <p className="mb-2 text-xl font-bold tracking-tight " style={{ color: darkMode ? '#4cd964' : '#8b5cf6' }} >0.07 SOL</p>
+                        <p className="mb-2 text-xl font-bold tracking-tight " style={{ color: darkMode ? '#84cc16' : '#8b5cf6' }} >81/100</p>
+                        <p className="mb-2 text-xl font-bold tracking-tight " style={{ color: darkMode ? '#84cc16' : '#8b5cf6' }} >0.07 SOL</p>
                     </div>
                 <Link to={`raffle/${card._id}`}>
                     <button className="w-full items-center p-3 px-3 text-sm font-medium text-center rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300  dark:focus:ring-blue-800" style={{ background: darkMode ? 'transparent' : '#6366f1', border: darkMode && "2px solid #8b5cf6", color: darkMode ? '#8b5cf6' : 'white' }}>

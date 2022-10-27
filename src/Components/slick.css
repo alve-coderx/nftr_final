@@ -1,16 +1,17 @@
 .slick-next{
-    
-    right: 40px;
+    top : 35%;
+    right: 45px;
     z-index: 1;
 }
 .slick-prev{
-    
-    left: 20px;
+    top : 35%;
+    left: 40px;
     z-index: 1;
 
 }
+
 .slick-prev::before{
-    content: '<';
+    content: url('https://i.ibb.co/XWSQ7kK/grtegergerg-removebg-preview.png');
     font-size:  80px;
     line-height: 10px;
     color: rgb(139, 92, 246);
@@ -20,7 +21,7 @@
 }
 
 .slick-next::before{
-    content: '>';
+    content: url('https://i.ibb.co/CwkVcTS/bcxvsvcxvxcv-removebg-preview.png');
     font-size:  80px;
     line-height: 10px;
     color: rgb(139, 92, 246);
