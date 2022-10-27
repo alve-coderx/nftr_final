@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: './src/index.js',
   resolve: {
-    fallback: { "crypto": require.resolve("crypto-browserify") }
+    fallback: { "crypto": false }
   },
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
